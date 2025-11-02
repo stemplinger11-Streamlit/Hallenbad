@@ -1,16 +1,48 @@
+# Python
 __pycache__/
 *.py[cod]
+*$py.class
 *.so
 .Python
-env/
+*.egg-info/
+dist/
+build/
+
+# Virtual Environments
 venv/
+env/
+ENV/
+.venv
+
+# Streamlit
 .streamlit/secrets.toml
+
+# Firebase
 *firebase*.json
 *serviceAccount*.json
+*firebase-adminsdk*.json
+
+# Databases
 *.db
 *.db-journal
+*.sqlite
+*.sqlite3
+
+# Logs
 *.log
-.DS_Store
-Thumbs.db
+
+# IDEs
 .vscode/
 .idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Backup files
+*_BACKUP_*
+*.bak
