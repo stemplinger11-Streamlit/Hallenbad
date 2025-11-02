@@ -1,5 +1,6 @@
 [client]
 toolbarMode = "minimal"
+showSidebarNavigation = true
 
 [theme]
 base = "light"
@@ -8,3 +9,11 @@ backgroundColor = "#FFFFFF"
 secondaryBackgroundColor = "#F5F7FA"
 textColor = "#14171A"
 font = "sans serif"
+
+[server]
+headless = true
+runOnSave = false
+port = 8501
+
+[browser]
+gatherUsageStats = false
