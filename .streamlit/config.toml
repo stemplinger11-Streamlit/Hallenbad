@@ -1,4 +1,9 @@
+[client]
+toolbarMode = "minimal"
+showSidebarNavigation = true
+
 [theme]
+base = "light"
 primaryColor = "#DC143C"
 backgroundColor = "#FFFFFF"
 secondaryBackgroundColor = "#F5F7FA"
@@ -7,6 +12,8 @@ font = "sans serif"
 
 [server]
 headless = true
-enableCORS = false
-enableXsrfProtection = true
-maxUploadSize = 200
+runOnSave = false
+port = 8501
+
+[browser]
+gatherUsageStats = false
